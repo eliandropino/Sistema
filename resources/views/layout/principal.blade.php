@@ -19,9 +19,7 @@
     </a>
     <div class="nav-collapse collase">
         <ul class="nav navbar-nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
+            <li>{!! link_to('/', $title = 'Home') !!}}</li>
         </ul>
         <ul class="nav navbar-right navbar-nav">
             <li class="dropdown">
