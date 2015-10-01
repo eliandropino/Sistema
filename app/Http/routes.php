@@ -17,8 +17,7 @@ Route::get('/', function () {
 
 Route::get('novidades','IndexController@index');
 Route::get('lista','IndexController@lista');
-Route::post('exemploNome', 'IndexController@exemploNome');
-Route::get('nome',function(){
-    return view ('form.index');
-});
+Route::post('nome', 'IndexController@exemploNome');
+Route::get('contato','IndexController@getContato');
+Route::post('contato','IndexController@postContato');
 
