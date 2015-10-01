@@ -12,5 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('layout.principal');
 });
+
+Route::get('novidades','IndexController@index');
+Route::get('lista','IndexController@lista');
+Route::post('exemploNome', 'IndexController@exemploNome');
+Route::get('nome',function(){
+    return view ('form.index');
+});
+
