@@ -1,6 +1,6 @@
 @extends('layout.principal')
 
-@section('listainjection')
+@section('conteudo')
 <div class="div">
     <div class="row">
 

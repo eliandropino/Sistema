@@ -20,4 +20,5 @@ Route::get('lista','IndexController@lista');
 Route::post('nome', 'IndexController@exemploNome');
 Route::get('contato','IndexController@getContato');
 Route::post('contato','IndexController@postContato');
+Route::get('blog','PostsController@index');
 

@@ -1,6 +1,6 @@
 @extends('layout.principal')
 
-@section('listainjection')
+@section('conteudo')
     <h1>Form de Contato</h1>
     <div class="row">
 
